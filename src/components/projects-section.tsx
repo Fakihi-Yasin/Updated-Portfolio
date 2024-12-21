@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Project 1",
     description: "A brief description of Project 1",
-    image: "/placeholder.svg",
+    image: "/public/Stadium.png",
     techStack: ["React", "Node.js", "MongoDB"],
     github: "https://github.com/yourusername/project1",
     demo: "https://project1-demo.com",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Project 2",
     description: "A brief description of Project 2",
-    image: "/placeholder.svg",
+    image: "/public/web-dark.png",
     techStack: ["React", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/yourusername/project2",
     demo: "https://project2-demo.com",
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Project 3",
     description: "A brief description of Project 3",
-    image: "/placeholder.svg",
+    image: "/public/peoplePerTask.png",
     techStack: ["React", "Redux", "Express"],
     github: "https://github.com/yourusername/project3",
     demo: "https://project3-demo.com",

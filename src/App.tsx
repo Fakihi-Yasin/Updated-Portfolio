@@ -4,17 +4,22 @@ import ProjectsSection from './components/projects-section'
 import ExperienceSection from './components/expereince.section'
 import TestimonialsSection from './components/testimonials-section'
 import ContactSection from './components/contact.section'
+import Header from './components/header'
+
 
 function App() {
   return (
-    <div className="container mx-auto px-4">
-      <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <ExperienceSection />
-      <TestimonialsSection />
-      <ContactSection />
-    </div>
+    <>
+      <Header />
+      <div className="container mx-auto px-4">
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <ExperienceSection />
+        <TestimonialsSection />
+        <ContactSection />
+      </div>
+    </>
   )
 }
 

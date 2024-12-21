@@ -5,6 +5,13 @@ module.exports = {
   theme: {
   	extend: {
   		colors: {
+
+			border: "hsl(var(--border))",
+      background: "hsl(var(--background))",
+      primary: "hsl(var(--primary))",
+      card: "hsl(var(--card))",
+      "muted-foreground": "hsl(var(--muted-foreground))",
+
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

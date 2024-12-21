@@ -1,5 +1,5 @@
 import { Button } from "./ui/button"
-import { Github, Linkedin, Twitter } from 'lucide-react'
+import { Github, Linkedin, X } from 'lucide-react'
 
 export default function HeroSection() {
   return (
@@ -12,25 +12,25 @@ export default function HeroSection() {
             <a href="/path-to-your-resume.pdf" download>Download Resume</a>
           </Button>
           <Button variant="outline" size="icon">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Fakihi-Yasin" target="_blank" rel="noopener noreferrer">
               <Github className="h-4 w-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon">
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/yasin-fakihi/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-4 w-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon">
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-              <Twitter className="h-4 w-4" />
+            <a href="https://x.com/YassinFakihi" target="_blank" rel="noopener noreferrer">
+              <X className="h-4 w-4"  />
             </a>
           </Button>
         </div>
       </div>
       <div className="md:w-1/2">
         <img
-          src="/placeholder.svg"
+          src="https://fakihiportfolio.s3.eu-central-1.amazonaws.com/1715340253160.jpeg"
           alt="Your Name"
           className="rounded-full w-64 h-64 mx-auto"
         />
