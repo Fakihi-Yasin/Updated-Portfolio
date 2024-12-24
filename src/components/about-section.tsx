@@ -3,12 +3,12 @@ import { motion } from "framer-motion"
 const skills = [
  { 
    category: "Frontend", 
-   items: ["React", "Next.js", "Tailwind CSS"],
+   items: ["React", "Tailwind CSS", "JavaScript", "TypeScript", "Bootstrap", "HTML", "CSS"],
    icon: "🎨"
  },
  { 
    category: "Backend", 
-   items: ["Node.js", "Express", "MongoDB"],
+   items: ["Node.js", "Express","Nest.JS", "Laravel", "PHP"],
    icon: "⚙️"
  },
  { 
@@ -18,7 +18,7 @@ const skills = [
  },
  { 
    category: "Tools", 
-   items: ["Git", "Docker", "VS Code"],
+   items: ["Git", "VS Code" , "Figma", "Postman", "Jira"],
    icon: "🛠️"
  },
 ]
